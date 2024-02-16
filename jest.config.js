@@ -13,4 +13,7 @@ export default {
       },
     ],
   },
+  roots: [
+    "src"
+  ]
 };

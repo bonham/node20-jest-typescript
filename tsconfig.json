@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
     "module": "NodeNext" /* Specify what module code is generated. */,
+    "esModuleInterop": true,
     "verbatimModuleSyntax": false,
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
     "strict": true /* Enable all strict type-checking options. */,
     "outDir": "dist",
     "rootDir": "./"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["dist", "node_modules", "**/*.spec.ts"]
 }
