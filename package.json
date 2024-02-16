@@ -11,7 +11,7 @@
     "test": "jest",
     "build": "tsc",
     "start": "tsc && node dist/src/main.js",
-    "lint": "eslint .",
+    "lint": "eslint src",
     "tsx": "tsx src/main.ts"
   },
   "keywords": [],
@@ -28,5 +28,8 @@
     "tsx": "^4.7.1",
     "typescript": "^5.3.3",
     "typescript-eslint": "^7.0.1"
+  },
+  "dependencies": {
+    "globals": "^14.0.0"
   }
 }
